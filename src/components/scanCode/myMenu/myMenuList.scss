@@ -1,0 +1,71 @@
+@import '../../../assets/scss/common';
+
+.myMenuList{
+    width: 100%;
+    .title{
+        width: 100%;
+        height: px2rem(80px);
+        font-size: px2rem(30px);
+        color: #333333;
+        padding:0 px2rem(30px);
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+    }
+    .list{
+        width: 100%;
+        .add_foodList,.news_foodList{
+            width: 100%;
+            .add_title{
+                font-size: px2rem(36px);
+                height: px2rem(80px);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: $FF9000;
+                background: #fff;
+            }            
+        }
+        .table{
+            width: 100%;
+            background: #fff;
+            padding: 0 px2rem(30px);
+            box-sizing: border-box;
+            .tr_title{
+                font-size: px2rem(26px);
+                color: #999999;
+                height: px2rem(50px);
+                th{
+                    text-align: right;
+                    &:nth-child(1){
+                        text-align: left;
+                    }
+                    &:nth-child(2){
+                        width: px2rem(100px);
+                    }
+                    &:nth-child(3){
+                        width: px2rem(100px);
+                    }
+                }
+            }
+            .tr_food{
+                text-align: center;
+                font-size: px2rem(30px);
+                color: $FF9000;
+                height: px2rem(50px);
+                td{
+                    text-align: right;
+                    &:nth-child(1){
+                        text-align: left;
+                    }
+                }
+            }
+            .tr_cor{
+                color: #333333;
+            }
+        }
+        .table_mr{
+            margin-top: px2rem(20px);
+        }
+    }
+}

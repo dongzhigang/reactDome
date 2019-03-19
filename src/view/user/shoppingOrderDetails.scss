@@ -1,0 +1,78 @@
+@import '../../assets/scss/common';
+.shoppingOrderDetails{
+    width:100%;
+    padding:px2rem(20px) px2rem(30px);
+    box-sizing: border-box;
+    .info{
+        width: 100%;
+        border-top-left-radius: px2rem(15px);
+        border-top-right-radius: px2rem(15px);
+        overflow: hidden;
+        display: flex;
+        flex-flow: column;
+        .infoImg{
+            width: 100%;
+            height: px2rem(350px);
+            font-size: px2rem(20px);
+        }
+        .info_bt{
+            width: 100%;
+            height: px2rem(180px);
+            padding:0 px2rem(20px);
+            box-sizing: border-box;
+            background: #fff;
+            display: flex;
+            flex-direction: row;
+            flex-flow: column;
+            justify-content: space-around;
+            .name{
+                font-size: px2rem(36px);
+                color: #1A1A1A;
+                font-weight: bold;
+            }
+            .status{
+                font-size: px2rem(24px);
+                color: #AAAAAA;
+            }
+        }
+    }
+    .rows{
+        margin-top: px2rem(25px);
+        width: 100%;
+        height: px2rem(180px);
+        display: flex;
+        flex-flow: column;
+        justify-content: space-around;
+        background: #fff;
+        border-bottom-left-radius: px2rem(15px);
+        border-bottom-right-radius: px2rem(15px);
+        padding:0 px2rem(20px);
+        box-sizing: border-box;
+        overflow: hidden;
+        .col{
+            font-size: px2rem(24px);
+            color: #AAAAAA;
+            span{
+                color: #1A1A1A;
+                font-size: px2rem(26px);
+            }
+        }
+    }
+    .but{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        span{
+            width: px2rem(650px);
+            height: px2rem(80px);
+            background: $FF9000;
+            font-size: px2rem(30px);
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: px2rem(40px);
+            margin-top: px2rem(60px);
+        }
+    }
+}

@@ -1,0 +1,57 @@
+@import '../../assets/scss/common';
+.expenseRecord{
+    width: 100%;
+    .rows{
+        width: 100%;
+        padding: px2rem(10px) 0;
+        background: #fff;
+        display: flex;
+        flex-direction: row;
+        .col{
+            width: 50%;
+            height: px2rem(100px);
+            border-right: solid 1px #E2E1E6;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: px2rem(38px);
+            font-weight: bold;
+            flex-flow: column;
+            .col_font{
+                font-size: px2rem(30px);
+            }
+            .col_box{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                label{
+                    color: #858585;
+                }
+                span{
+                    color: $FF9000;
+                    margin-left: px2rem(10px);
+                }
+            }
+        }
+    }
+    .bt{
+        width: 100%;
+        padding:0 px2rem(30px);
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+        height: px2rem(100px);
+        border-bottom: solid 1px #E2E1E6;
+        .bt_a{
+            width: 100%;
+            font-size: px2rem(24px);
+            font-weight: bold;
+            color: #1A1A1A;
+            span{
+                color: $FF9000;
+            }
+        }
+    }
+}

@@ -1,0 +1,81 @@
+@import '../../assets/scss/common';
+.takingOrder{
+    width: 100%;
+    .but{
+        width: 100%;
+        height: px2rem(130px);
+        background: rgba(255, 255, 255, 0.5);
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        .but_box{
+            width: px2rem(700px);
+            height: px2rem(100px);
+            border-radius: px2rem(50px);
+            overflow: hidden;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            .left{
+                width:px2rem(480px);
+                height: px2rem(100px);
+                background: #1A1A1A;
+                display: flex;
+                align-items: center;
+                .left_cart{
+                    width: px2rem(79px);
+                    height: px2rem(76px);
+                    position: relative;
+                    margin-left: px2rem(50px);
+                    display: flex;
+                    .cart_img{
+                        width: px2rem(79px);
+                        height: px2rem(76px);
+                    }
+                    .quantity{
+                        position: absolute;
+                        right: px2rem(-20px);
+                        top: 0;
+                        color: #fff;
+                        background: #E71F19;
+                        font-size: px2rem(24px);
+                        width: px2rem(40px);
+                        height: px2rem(40px);
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border-radius: 100%;
+                    }
+                }
+                .left_a{
+                    display: flex;
+                    height: px2rem(100px);
+                    flex-flow: column;
+                    justify-content: center;
+                    margin-left: px2rem(40px);
+                    span{
+                        font-size: px2rem(28px);
+                        color: #999999;
+                        label{
+                            font-size: px2rem(46px);
+                            color: #fff;
+                            margin-right: px2rem(10px);
+                        }
+                    }
+                }
+            }
+            .right{
+                width: px2rem(220px);
+                height: px2rem(100px);
+                background:$FF9000;
+                color: #fff;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: px2rem(34px);
+            }
+        }
+    }
+}

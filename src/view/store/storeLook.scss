@@ -1,0 +1,47 @@
+@import '../../assets/scss/common';
+.storeLook{
+    width: 100%;
+    .item{
+        width: 100%;
+        padding:px2rem(10px) px2rem(15px);
+        box-sizing: border-box;
+        background: #fff;
+        display: flex;
+        margin-bottom: px2rem(20px);
+        &:last-child{
+            margin-bottom: 0;
+        }
+        .item_img{
+            font-size: px2rem(20px);
+            width: px2rem(210px);
+            height: px2rem(140px);
+        }
+        .item_info{
+            padding:0 px2rem(20px);
+            display: flex;
+            height: px2rem(140px);
+            flex-flow: column;
+            justify-content: space-around;
+            .item_name{
+                font-size: px2rem(30px);
+                color: #1A1A1A;
+            }
+            .address{
+                font-size: px2rem(24px);
+                color: #939393;
+                display: flex;
+                align-items: flex-start;
+                .address_img{
+                    width: px2rem(22px);
+                    height: px2rem(29px);
+                    font-size: px2rem(20px);
+                    margin-right: px2rem(5px);
+                }
+                .phone{
+                    text-decoration: underline;
+                    color: $FF9000;
+                }
+            }
+        }
+    }
+}

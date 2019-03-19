@@ -1,0 +1,93 @@
+@import '../../../assets/scss/common';
+.store_info{
+    width: 100%;
+    background: #fff;
+    .top{
+        width: 100%;
+        height: px2rem(147px);
+        border-bottom: solid 1px #E6E6E6;
+        padding:px2rem(15px) px2rem(30px);
+        box-sizing: border-box;
+        display: flex;
+        .storeLogo{
+            width: px2rem(170px);
+            height: px2rem(105px);
+            font-size: px2rem(18px);
+            border: solid 1px #E6E6E6;
+        }
+        .store_right{
+            width:100%;
+            padding-left:px2rem(20px);
+            box-sizing: border-box;
+            height: 100%;
+            display: flex;
+            flex-flow: column;
+            justify-content: space-between;
+            color: #4D4D4D;
+            .name{
+                font-size: px2rem(26px);
+            }
+            .dosc{
+                font-size: px2rem(20px);
+            }
+            .grades{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .grade{
+                    display: flex;
+                    align-items: center;
+                    .icon{
+                        width:px2rem(20px);
+                        height: px2rem(19px);
+                    }
+                }
+                .grade_right{
+                    width:px2rem(60px);
+                    height: px2rem(34px);
+                    background: #FF9000;
+                    font-size: px2rem(18px);
+                    color: #fff;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: px2rem(2px);
+                }
+            }
+        }
+    }
+    .address{
+        width: 100%;
+        height: px2rem(70px);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .left{
+            padding-left:px2rem(30px);
+            display: flex;
+            align-items: center;
+            .left_icon{
+                width:px2rem(22px);
+                height: px2rem(29px);
+            }
+            .left_text{
+                font-size: px2rem(24px);
+                color: #4D4D4D;
+                margin-left: px2rem(10px);
+            }
+        }
+        .right{
+            width: px2rem(100px);
+            height: px2rem(50px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-left: solid 1px #F0EFF4;
+            .right_icon{
+                width: px2rem(29px);
+                height: px2rem(29px);
+            }
+        }
+    }
+}

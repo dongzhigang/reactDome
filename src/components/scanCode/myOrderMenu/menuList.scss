@@ -1,0 +1,54 @@
+@import '../../../assets/scss/common';
+
+.menuList{
+    width: 100%;
+    border-radius: px2rem(10px);
+    overflow: hidden;
+    margin-bottom: px2rem(100px);
+    .item{
+        width: 100%;
+        background: #fff;
+        padding:px2rem(15px) px2rem(20px);
+        box-sizing: border-box;
+        border-bottom: solid 1px #E2E1E6;
+        display: flex;
+        .item_img{
+            width: px2rem(130px);
+            height: px2rem(100px);
+            border-radius: px2rem(6px);
+        }
+        .item_right{
+            width: 100%;
+            height: px2rem(100px);
+            padding:0 px2rem(20px);
+            display: flex;
+            flex-direction: row;
+            flex-flow: column;
+            .item_col{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                font-weight: bold;
+                span{
+                    font-size: px2rem(26px);
+                    color: #1A1A1A;
+                    &.quantity{
+                        font-size: px2rem(24px);
+                        color: #ACABB1;
+                    }
+                }
+                label{
+                    font-size: px2rem(30px);
+                    &.has{
+                        font-size: px2rem(24px);
+                        color: $FF9000;
+                    }
+                    &.bt{
+                        color: #FF9000;
+                        margin-left: px2rem(10px);
+                    }
+                }
+            }
+        }
+    }
+}

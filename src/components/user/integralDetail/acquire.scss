@@ -1,0 +1,37 @@
+@import '../../../assets/scss/common';
+
+.acquire{
+    width: 100%;
+    .list{
+        width: 100%;
+        padding:0 px2rem(30px);
+        box-sizing: border-box;
+        background: #fff;
+        .item{
+            width: 100%;
+            height: px2rem(100px);
+            border-bottom: solid 1px $F0EFF4;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: px2rem(30px);
+            .left,.right{
+                width: 50%;
+            }
+            .right{
+                display: flex;
+                flex-flow: column;
+                justify-content: space-around;
+                padding-left: px2rem(80px);
+                box-sizing: border-box;
+                label{
+                    color: $FF9000;
+                    font-weight: bold;
+                }
+            }
+            &:last-child{
+                border-bottom: none;
+            }
+        }
+    }
+}

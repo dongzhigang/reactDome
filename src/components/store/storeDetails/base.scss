@@ -1,0 +1,46 @@
+@import '../../../assets/scss/common';
+.base_box{
+    width: 100%;
+    margin-top: px2rem(20px);
+    background: #fff;
+    padding:0 px2rem(30px);
+    box-sizing: border-box;
+    .base_more{
+        width: 100%;
+        height: px2rem(84px);
+        display: flex;
+        align-items: center;
+        font-size: px2rem(24px);
+        color: #4D4D4D;
+    }
+    .base_time{
+        width: 100%;
+        border-bottom: solid 1px #E6E6E6;
+        font-size: px2rem(20px);
+        color: #595959;
+        display: flex;
+        align-items: center;
+        padding: px2rem(20px) 0;
+        .base_icon1{
+            width: px2rem(40px);
+            height: px2rem(40px);
+        }
+    }
+    .base_comment{
+        width: 100%;
+        height: px2rem(70px);
+        font-size: px2rem(24px);
+        color: #4D4D4D;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight:400;
+        .base_icon2{
+            width: px2rem(40px);
+            height: px2rem(40px);
+        }
+        a{
+            color: #4D4D4D;
+        }
+    }
+}

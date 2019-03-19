@@ -1,0 +1,59 @@
+@import '../../../assets/scss/common';
+.unused{
+    width: 100%;
+    padding:px2rem(20px) px2rem(30px);
+    box-sizing: border-box;
+    .item{
+        width: 100%;
+        height: px2rem(210px);
+        background: #fff;
+        border: solid 1px #E2E1E6;
+        box-sizing: border-box;
+        border-radius: px2rem(10px);
+        overflow: hidden;
+        display: flex;
+        margin-bottom: px2rem(20px);
+        &:last-child{
+            margin-bottom: 0;
+        }
+        .item_img{
+            width: px2rem(290px);
+            height: 100%;
+        }
+        .item_info{
+            width: px2rem(400px);
+            height: 100%;
+            display: flex;
+            flex-flow: column;
+            justify-content: space-between;
+            padding:px2rem(10px) px2rem(20px);
+            padding-bottom: 0;
+            box-sizing: border-box;
+            .title{
+                width: 100%;
+                font-size: px2rem(36px);
+                color: $FF9000;
+                font-weight: bold;
+            }
+            .dosc{
+                width: 100%;
+                font-size: px2rem(22px);
+                color: #999999;
+            }
+            .date{
+                width: 100%;
+                height: px2rem(50px);
+                border-top: solid 1px #E4E4E4;
+                display: flex;
+                align-items: center;
+                font-size: px2rem(22px);
+                color: #AAAAAA;
+                .pastDueImg{
+                    width: px2rem(106px);
+                    height: px2rem(32px);
+                    margin-left: px2rem(10px);
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+@import '../../assets/scss/common';
+
+.integralDetail{
+    width: 100%;
+    .rows{
+        width: 100%;
+        height: px2rem(80px);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: #fff;
+        .col{
+            width: 100%;
+            height: px2rem(80px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: px2rem(30px);
+            border-bottom: solid px2rem(4px) #fff;
+            &.active{
+                border-bottom: solid px2rem(4px) #FF9000;
+            }
+        }
+    }
+}

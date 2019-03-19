@@ -1,0 +1,34 @@
+@import '../../../assets/scss/common';
+
+.shoppingOrder_noData{
+    width: 100%;
+    padding:0 px2rem(30px);
+    margin:px2rem(20px) 0;
+    box-sizing: border-box;
+    .box{
+        width: 100%;
+        height: px2rem(300px);
+        background: #fff;
+        border-radius: px2rem(10px);
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        .top{
+            font-size: px2rem(30px);
+            color: #BFBFBF;
+        }
+        .base{
+            width: px2rem(220px);
+            height: px2rem(60px);
+            background: $FF9000;
+            border-radius: px2rem(30px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: px2rem(30px);
+            font-size: px2rem(30px);
+            color: #fff;
+        }
+    }
+}

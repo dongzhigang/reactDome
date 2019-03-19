@@ -1,0 +1,32 @@
+@import '../../../assets/scss/common';
+
+.IntegralList{
+    width: 100%;
+    padding: px2rem(20px);
+    box-sizing: border-box;
+    .list{
+        width: 100%;
+        border-radius: px2rem(12px);
+        overflow: hidden;
+        .item{
+            width: 100%;
+            height: px2rem(86px);
+            padding: 0 px2rem(10px);
+            box-sizing: border-box;
+            background: #fff;
+            border-bottom: solid 1px #F0EFF4;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #1A1A1A;
+            font-size: px2rem(26px);
+            &:last-child{
+                border-bottom: none;
+            }
+            .item_icon{
+                width: px2rem(18px);
+                height: px2rem(31px);
+            }
+        }
+    }
+}

@@ -1,0 +1,56 @@
+@import '../../../assets/scss/common';
+
+.orderList{
+    width: 100%;
+    padding:px2rem(20px) px2rem(30px);
+    box-sizing: border-box;
+    .item{
+        width: 100%;
+        height: px2rem(215px);
+        background: #fff;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: px2rem(30px);
+        border-radius: px2rem(5px);
+        overflow: hidden;
+        &:last-child{
+            margin-bottom: none;
+        }
+        .item_img{
+            width: px2rem(290px);
+            height: px2rem(215px);
+        }
+        .item_info{
+            width: px2rem(400px);
+            height: px2rem(215px);
+            padding:px2rem(5px) px2rem(10px);
+            box-sizing: border-box;
+            display: flex;
+            flex-flow: column;
+            justify-content: space-between;
+            .item_name{
+                display: flex;
+                width: 100%;
+                font-size: px2rem(30px);
+                color: $FF9000;
+                align-items: center;
+                span{
+                    color: #1A1A1A;
+                    font-size: px2rem(20px);
+                }
+            }
+            .item_date{
+                width: 100%;
+                font-size: px2rem(22px);
+                color: #AAAAAA;
+            }
+            .item_dosc{
+                width: 100%;
+                color: #999999;
+                font-size: px2rem(20px);
+                border-bottom: solid 1px #E4E4E4;
+                padding-bottom: px2rem(5px);
+            }
+        }
+    }
+}

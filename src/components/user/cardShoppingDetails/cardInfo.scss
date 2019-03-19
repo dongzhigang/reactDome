@@ -1,0 +1,31 @@
+@import '../../../assets/scss/common';
+
+.cardInfo{
+    width: 100%;
+    height: px2rem(210px);
+    padding:0 px2rem(20px);
+    background: #fff;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    .name{
+        width: 100%;
+        font-size: px2rem(36px);
+        font-weight: bold;
+        color: #1A1A1A;
+    }
+    .integral{
+        width: 100%;
+        font-size: px2rem(36px);
+        color: $FF9000;
+        font-weight: bold;
+        .integral_span{
+            font-size: px2rem(28px);
+        }
+    }
+    .validity{
+        width: 100%;
+        color: #AAAAAA;
+        font-size: px2rem(24px);
+    }
+}

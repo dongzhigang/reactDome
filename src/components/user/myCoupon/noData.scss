@@ -1,0 +1,41 @@
+@import '../../../assets/scss/common';
+
+.noData{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    .box{
+        width: 100%;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        .box_icon{
+            width: px2rem(130px);
+            height: px2rem(100px);
+        }
+        .box_a{
+            font-size: px2rem(32px);
+            color: #666;
+            margin:px2rem(40px) 0;
+        }
+        .box_b{
+            width: px2rem(225px);
+            height: px2rem(60px);
+            background: $FF9000;
+            border-radius: px2rem(30px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: px2rem(32px);
+            color: #fff;
+        }
+    }
+}   

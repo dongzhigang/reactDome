@@ -1,0 +1,42 @@
+@import '../../../assets/scss/common';
+.list{
+    width: 100%;
+    .rows{
+        width: 100%;
+        background: #fff;
+        .col{
+            width: 100%;
+            padding:0 px2rem(30px);
+            box-sizing: border-box;
+            height: px2rem(86px);
+            border-bottom: solid 1px #F0EFF4;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .line{
+                display: flex;
+                align-items: center;
+                font-size: px2rem(26px);
+                color: #1A1A1A;
+                .col_icon{
+                    width: px2rem(48px);
+                    height: px2rem(53px);
+                    margin-right: px2rem(20px);
+                }
+                .col_vip{
+                    width: px2rem(52px);
+                    height: px2rem(39px);
+                }
+                .col_next{
+                    width: px2rem(18px);
+                    height: px2rem(31px);
+                    margin-left: px2rem(10px);
+                }
+                .money{
+                    font-size: px2rem(22px);
+                    color: #BFBFBF;
+                }
+            }
+        }
+    }
+}

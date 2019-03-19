@@ -1,0 +1,81 @@
+@import '../../assets/scss/common';
+.storeComment{
+    width: 100%;
+    height:100%;
+    .roof{
+        width: 100%;
+        height: px2rem(70px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: px2rem(18px);
+        color: #BABABA;
+        position: relative;
+        &:before{
+            content: "";
+            display: inline-block;        
+            width: px2rem(210px);
+            height: 1px;
+            background: #CECDCF;
+            margin-right: px2rem(20px);
+
+        }
+        &:after{
+            content:"";
+            display: inline-block;
+            width: px2rem(210px);
+            height: 1px;
+            background: #CECDCF;
+            margin-left: px2rem(20px);
+        }
+    }
+    .grades{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .grade_icon{
+            width:px2rem(45px);
+            height: px2rem(43px);
+            margin:0 px2rem(5px);
+        }
+    }
+    .redact{
+        margin-top: px2rem(30px);
+        width: 100%;
+        background: #fff;
+        height: px2rem(300px);
+        position: relative;
+        .textarea{
+            width: 100%;
+            height: 100%;
+            font-size: px2rem(24px);
+            color: #BABABA;
+            line-height: px2rem(48px);
+            text-indent: 2em;
+            padding-bottom: px2rem(60px);
+            box-sizing: border-box;
+        }
+        .number{
+            position: absolute;
+            right: px2rem(30px);
+            font-size: px2rem(18px);
+            color: #878787;
+            bottom: px2rem(15px);
+        }
+    }
+    .submit{
+        width: 100%;
+        height: px2rem(80px);
+        font-size: px2rem(30px);
+        background: #C7C7C7;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &.active{
+            background: #FF9000;
+            color: #fff;
+        }
+    }
+}

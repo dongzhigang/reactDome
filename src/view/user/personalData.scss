@@ -1,0 +1,60 @@
+@import '../../assets/scss/common';
+
+.personalData{
+    width: 100%;
+    .list{
+        width: 100%;
+        .item{
+            width: 100%;
+            height: px2rem(70px);
+            border-bottom: solid 1px #E2E1E6;
+            padding: 0 px2rem(30px);
+            box-sizing: border-box;
+            font-size: px2rem(24px);
+            color: #808080;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .label{
+                
+            }
+            .input{
+                height: px2rem(70px);
+                color: #1A1A1A;
+                font-size: px2rem(24px);
+                text-align: right;
+            }
+            .span{
+                display: flex;
+                align-items: center;
+                height: px2rem(70px);
+                color: #1A1A1A;
+                font-size: px2rem(24px);
+            }
+            .right{
+                display: flex;
+                align-items: center;
+                color: #1A1A1A;
+                .vip{
+                    width: px2rem(52px);
+                    height: px2rem(39px);
+                }
+                .next{
+                    width: px2rem(18px);
+                    height: px2rem(31px);
+                    margin-left: px2rem(10px);
+                }
+            }
+        }
+        .item_but{
+            width: 100%;
+            height: px2rem(80px);
+            background: $FF9000;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: px2rem(30px);
+        }
+    }
+}

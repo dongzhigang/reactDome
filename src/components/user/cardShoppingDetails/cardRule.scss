@@ -1,0 +1,26 @@
+@import '../../../assets/scss/common';
+
+.cardRule{
+    width: 100%;
+    background: #fff;
+    padding:0 px2rem(20px);
+    box-sizing: border-box;
+    .title{
+        width: 100%;
+        height: px2rem(90px);
+        color: #1A1A1A;
+        font-size: px2rem(32px);
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+    }
+    .list{
+        width: 100%;
+        padding-bottom:px2rem(30px);
+        .item{
+            font-size: px2rem(24px);
+            color: #989898;
+            line-height: px2rem(38px);
+        }
+    }
+}

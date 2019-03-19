@@ -1,0 +1,81 @@
+@import '../../../assets/scss/common';
+.take_below{
+    width: 100%;
+    padding:0 px2rem(30px);
+    box-sizing: border-box;
+    .below_01{
+        width: 100%;
+        height: px2rem(119px);
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+        border-bottom: solid 1px #F0EFF4;
+        .below_01_left{
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+            .left_box{
+                font-size: px2rem(20px);
+                color: #BABABA;
+                .left_b{
+                    color: #4D4D4D;
+                    margin-left: px2rem(20px);
+                }
+            }
+        }
+        .below_01_left2{
+            width: 100%;
+            height: px2rem(50px);
+            border-right: solid 1px #F0EFF4;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            .left2_item{
+                display: flex;
+                justify-content: center;
+                flex-flow: column;
+                font-size: px2rem(20px);
+                color: #1A1A1A;
+                label{
+                    display: flex;
+                    justify-content: center;
+                    &.label_a{
+                        color:#676767;
+                    }
+                }
+                .item_b{
+                    color: #FF9000;
+                    font-size: px2rem(26px);
+                }
+            }
+        }
+        .below_01_right{
+            width: px2rem(200px);
+            height: px2rem(70px);
+            margin-left: px2rem(40px);
+            background: #FF9000;
+            border-radius: px2rem(3px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            font-size: px2rem(30px);
+        }
+    }
+    .below_02{
+        width: 100%;
+        height: px2rem(60px);
+        display: flex;
+        align-items: center;
+        font-size: px2rem(22px);
+        color: #BFBFBF;
+        &:before{
+            content: "";
+            margin-right:px2rem(10px);
+            width: px2rem(6px);
+            height: px2rem(6px);
+            border-radius: px2rem(6px);
+            background: #D7D7D7;
+        }
+    }
+}

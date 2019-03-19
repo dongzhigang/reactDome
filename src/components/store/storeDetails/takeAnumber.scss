@@ -1,0 +1,85 @@
+@import '../../../assets/scss/common';
+.takeNumber{
+    width: 100%;
+    background: #fff;
+    margin-top: px2rem(20px);
+    .take_top{
+        width:100%;
+        height: px2rem(88px);
+        padding:0 px2rem(30px);
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        .take_top_a{
+            font-size: px2rem(24px);
+            color: #4D4D4D;
+            display: flex;
+            align-items: center;
+            .take_top_icon{
+                width: px2rem(40px);
+                height: px2rem(40px);
+                margin-right: px2rem(10px);
+            }
+        }
+        .take_top_b{
+            font-size: px2rem(20px);
+            color: #BABABA;
+        }
+    }
+    .take_list{
+        width: 100%;
+        padding:0 px2rem(30px);
+        box-sizing: border-box;
+        .take_itme{
+            width: 100%;
+            height: px2rem(84px);
+            border:solid 1px #FF9000;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            margin-bottom: px2rem(15px);
+            font-size: px2rem(26px);
+            color: #1A1A1A;
+            &:last-child{
+                margin-bottom: 0;
+            }
+            .take_item_w{
+                width: 33.33%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .take_item_a{
+                display: flex;
+                flex-flow: column;
+                justify-content: center;
+                .base{
+                    font-size: px2rem(22px);
+                    color: #B2B2B2;
+                }
+            }
+            .take_item_b{
+                .label{
+                    font-size: px2rem(30px);
+                    color: #FF9000;
+                }
+            }
+            .take_item_c{
+                font-size: px2rem(22px);
+                color: #B2B2B2;
+            }
+        }
+    }
+    .pause{
+        width: 100%;
+        height: px2rem(64px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: px2rem(24px);
+        color: #4D4D4D;
+        border-top: solid 1px #E6E6E6;
+    }
+}

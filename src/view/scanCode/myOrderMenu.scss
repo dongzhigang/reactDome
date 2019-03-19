@@ -1,0 +1,26 @@
+@import '../../assets/scss/common';
+
+.myOrderMenu{
+    width: 100%;
+    padding:0 px2rem(10px);
+    box-sizing: border-box;
+    .but{
+        position: fixed;
+        bottom: px2rem(20px);
+        left: 0;
+        padding:0 px2rem(10px);
+        box-sizing: border-box;
+        width: 100%;
+        height: px2rem(80px);
+        span{
+            width: 100%;
+            height: px2rem(80px);
+            background: $FF9000;
+            display: flex;
+            align-items:center;
+            justify-content: center;
+            font-size: px2rem(30px);
+            color: #fff;
+        }
+    }
+}

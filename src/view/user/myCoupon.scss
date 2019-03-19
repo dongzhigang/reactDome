@@ -1,0 +1,28 @@
+@import '../../assets/scss/common';
+
+.myCoupon{
+    width: 100%;
+    .rows{
+        width: 100%;
+        height: px2rem(69px);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background: #fff;
+        position: relative;
+        z-index: 3;
+        .col{
+            width: 33.33%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: px2rem(28px);
+            color: #1A1A1A;
+            border-bottom: solid 1px #E2E1E6;
+            &.active{
+                border-bottom: solid px2rem(4px) $FF9000;
+            }
+        }
+    }
+}

@@ -1,0 +1,83 @@
+@import '../../../assets/scss/common';
+
+.detaBirth{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: flex-end;
+    .deta_box{
+        width: 100%;
+        height: px2rem(400px);
+        position: relative;
+        overflow: hidden;
+        background: #fff;
+        // .deta_title{
+        //     width: 100%;
+        //     height: px2rem(80px);
+        //     background: $F0EFF4;
+        //     display: flex;
+        //     align-items: center;
+        //     justify-content: center;
+        //     font-size: px2rem(36px);
+        //     color: #4D4D4D;
+        // }
+        .deta_list{
+            width: 100%;
+            height: px2rem(290px);
+            overflow: hidden;
+            position: relative;
+            z-index: 100;
+            display: flex;
+            position: relative;
+            cursor: pointer;
+            -webkit-mask: -webkit-linear-gradient(top,#debb47 50%,rgba(36,142,36,0));
+            transform: perspective(1000);
+            -webkit-perspective: 1000; /* Safari 和 Chrome */
+            .deta_list_mask{
+                width: 100%;
+                display: flex;
+                -webkit-mask: -webkit-linear-gradient(bottom,#debb47 50%,rgba(36,142,36,0));
+                transform: perspective(1000);
+                -webkit-perspective: 1000; /* Safari 和 Chrome */
+                .deta_item{
+                    width: 33.33%;
+                    font-size: px2rem(30px);
+                    font-weight: bold;
+                    text-align: center;
+                    transition:all 1s;
+                    transform:translate3d(0,0,0);
+                    cursor: pointer;
+                    .deta_h{
+                        height: px2rem(58px);
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 100%;
+                    }				
+                }
+            }
+        }
+        .deta_bt{
+            width: 100%;
+            height: px2rem(69px);
+            display: flex;
+            span{
+                font-size: px2rem(25px);
+                width: 50%;
+                border: solid 1px #E1E0E6;
+                box-sizing: border-box;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #4D4D4D;
+                &.bt_active{
+                    color: #FF9000;
+                }
+            }
+        }
+    }
+}

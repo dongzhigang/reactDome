@@ -1,0 +1,94 @@
+@import '../../assets/scss/common';
+
+.storeNav{
+    width: 100%;
+    .title{
+        padding:0 px2rem(20px);
+        box-sizing: border-box;
+        width: 100%;
+        height: px2rem(80px);
+        display: flex;
+        align-items: center;
+        font-size: px2rem(30px);
+        background: $FF9000;
+        color: #fff;
+
+    }
+    .list{
+        width: 100%;
+        padding:0 px2rem(20px);
+        box-sizing: border-box;
+        .item{
+            width: 100%;
+            height: px2rem(180px);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: #fff;
+            border-radius: px2rem(10px);
+            margin-top: px2rem(15px);
+            padding: 0 px2rem(10px);
+            box-sizing: border-box;
+            overflow: hidden;
+            .item_left{
+                width: px2rem(610px);
+                display: flex;
+                align-items: center;
+                border-right: solid 1px #F0EFF4;
+                box-sizing: border-box;
+                .item_img{
+                    width: px2rem(170px);
+                    height: px2rem(140px);
+                    font-size: px2rem(20px);
+                }
+                .item_info{
+                    display: flex;
+                    height: px2rem(140px);
+                    justify-content: space-between;
+                    flex-flow: column;
+                    padding: 0 px2rem(20px);
+                    .item_name{
+                        font-size: px2rem(30px);
+                        color: #1A1A1A;
+                        margin-top: px2rem(-10px);
+                    }
+                    .item_a{
+                        font-size: px2rem(24px);
+                        color: #939393;
+                        display: flex;
+                        align-items: flex-start;
+                        .site_img{
+                            width: px2rem(22px);
+                            height: px2rem(29px);
+                        }
+                        span,a{
+                            margin-left: px2rem(10px);
+                        }
+                        .span_cor{
+                            color: $FF9000;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+            .item_right{
+                width: px2rem(100px);
+                height: px2rem(100px);
+                margin-left: px2rem(20px);
+                background: $FF9000;
+                border-radius: px2rem(10px);
+                font-size: px2rem(38px);
+                color: #fff;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-flow: column;
+                overflow: hidden;
+                span{
+                    font-size: px2rem(30px);
+                    display: flex;
+                }
+            }
+        }
+    }
+}

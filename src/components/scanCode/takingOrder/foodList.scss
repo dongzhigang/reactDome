@@ -1,0 +1,100 @@
+@import '../../../assets/scss/common';
+.foodList{
+    width: 100%;
+    padding-left: px2rem(200px);
+    box-sizing: border-box;
+    background: #fff;
+    padding-bottom: px2rem(140px);
+    .food_item{
+        width:100%;
+        .food_title{
+            border-bottom: dashed 1px #FF9000;
+            width: 100%;
+            height: px2rem(80px);
+            font-size: px2rem(36px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: $FF9000;
+            font-weight: bold;
+        }
+        .list{
+            width: 100%;
+            .item{
+                width: 100%;
+                padding:px2rem(20px) 0;
+                padding-right: px2rem(30px);
+                box-sizing: border-box;
+                border-bottom: solid 1px #E2E1E6;
+                display: flex;
+                flex-direction: row;
+                .item_img{
+                    width:px2rem(200px);
+                    height: px2rem(140px);
+                }
+                .item_right{
+                    width: 100%;
+                    height: px2rem(140px);
+                    display: flex;
+                    flex-flow: column;
+                    justify-content: space-between;
+                    padding-left: px2rem(10px);
+                    box-sizing: border-box;
+                    .item_title{
+                        width: 100%;
+                        font-size: px2rem(28px);
+                        color: #1A1A1A;
+                    }
+                    .item_price{
+                        width: 100%;
+                        color: #1A1A1A;
+                        font-size: px2rem(24px);
+                        span{
+                            color: $FF9000;
+                            label{
+                                font-size: px2rem(34px);
+                                font-weight: bold;
+                            }
+                        }
+                    }
+                    .item_original_price{
+                        width: 100%;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        font-size: px2rem(24px);
+                        color: #A2A2A2;
+                        .item_and{
+                            display: flex;
+                            align-items: center;
+                            font-size: px2rem(30px);
+                            color: #1A1A1A;
+                            label{
+                                margin:0 px2rem(5px);
+                            }
+                            .item_and_w{
+                                width: px2rem(36px);
+                                height: px2rem(36px);
+                                border-radius: 100%;
+                                overflow: hidden;
+                                font-size: px2rem(30px);
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                            }
+                            .item_and_subtract{
+                                background: #E2E1E6;
+                                color: #95949A;
+                            }
+                            .item_and_add{
+                                background: $FF9000;
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}

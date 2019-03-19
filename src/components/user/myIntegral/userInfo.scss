@@ -1,0 +1,71 @@
+@import '../../../assets/scss/common';
+.userInfo{
+    width: 100%;
+    height: px2rem(410px);
+    position: relative;
+    .userInfo_bg{
+        width: 100%;
+        height: px2rem(330px);
+    }
+    .userComtent{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding:0 px2rem(20px);
+        box-sizing: border-box;
+        .user_box{
+            width: 100%;
+            height: px2rem(250px);
+            background: #fff;
+            border-radius: px2rem(10px);
+            position: relative;
+            .userName{
+                width: 100%;
+                display: flex;
+                flex-flow: column;
+                justify-content: center;
+                align-items: center;
+                .portrait{
+                    width: px2rem(100px);
+                    height: px2rem(100px);
+                    margin-top: px2rem(-50px);
+                    border-radius: 100%;
+                }
+                .name{
+                    font-size: px2rem(26px);
+                    color: #4E4E4E;
+                    margin-top: px2rem(10px);
+                }
+            }
+            .integralRows{
+                width: 100%;
+                padding: px2rem(20px) 0;
+                box-sizing: border-box;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;    
+                .col{
+                    width: 50%;
+                    height: px2rem(80px);
+                    font-size: px2rem(30px);
+                    color: #1A1A1A;
+                    display: flex;
+                    flex-flow: column;
+                    justify-content: space-around;
+                    align-items: center;
+                    &:last-child{
+                        border-left:1px solid #F0EFF4;
+                    }
+                    .col_ys{
+                        color: #929292;
+                        font-size: px2rem(26px);
+                    }
+                }
+            }
+        }
+    }
+}

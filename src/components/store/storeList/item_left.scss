@@ -1,0 +1,121 @@
+@import '../../../assets/scss/common';
+.store_left{
+    width: px2rem(170px);
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    .item_img{
+        width:100%;
+        font-size: px2rem(20px);
+        height: px2rem(105px);
+        margin-top: px2rem(20px);
+        border:1px solid rgba(230,230,230,1);
+        position: relative;
+        img{
+            width:100%;
+            height: 100%; 
+        }
+        $bt_max:30px;
+		$bt_min:10px;
+        .item_fl_img——ab{
+            position: absolute;
+            top: 0;
+            left: 0;
+            color: #fff;
+            z-index: 4;
+            .item_fl_img——rotate{
+                transform: rotate(-45deg);
+                width: px2rem(60px);
+                font-size: px2rem(12px);
+                height: px2rem(60px);
+                display:flex;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                top: px2rem(-10px);
+                left: px2rem(-10px);
+                z-index: 5;
+
+            }
+        }
+        .item_fl_img——red{
+            &:after{
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                border: solid px2rem($bt_min) transparent;
+                border-top: solid px2rem($bt_min) #fff;
+                border-left: solid px2rem($bt_min) #fff;
+                z-index: 3;
+            }
+            &:before{
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                border: solid px2rem($bt_max) transparent;
+                z-index: 2;
+                border-top: solid px2rem($bt_max) #FF0000;
+                border-left: solid px2rem($bt_max) #FF0000;
+            }
+        }
+        .item_fl_img——yellow{
+            &:after{
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                border: solid px2rem($bt_min) transparent;
+                border-top: solid px2rem($bt_min) #fff;
+                border-left: solid px2rem($bt_min) #fff;
+                z-index: 3;
+            }
+            &:before{
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                border: solid px2rem($bt_max) transparent;
+                z-index: 2;
+                border-top: solid px2rem($bt_max) #FFB400;
+                border-left: solid px2rem($bt_max) #FFB400;
+            }
+        }
+        .item_fl_img——green{
+            &:after{
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                border: solid px2rem($bt_min) transparent;
+                border-top: solid px2rem($bt_min) #fff;
+                border-left: solid px2rem($bt_min) #fff;
+                z-index: 3;
+            }
+            &:before{
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                border: solid px2rem($bt_max) transparent;
+                z-index: 2;
+                border-top: solid px2rem($bt_max) #14D026;
+                border-left: solid px2rem($bt_max) #14D026;
+            }
+        }
+    }
+    .phone_text{
+        width: 100%;
+        height:px2rem(47px);
+        display: flex;
+        align-items: center;
+        justify-content:flex-end;
+        img{
+            width:px2rem(88px);
+            height: px2rem(28px);
+
+        }
+    }
+}

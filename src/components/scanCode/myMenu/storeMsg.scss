@@ -1,0 +1,69 @@
+@import '../../../assets/scss/common';
+
+.storeMsg{
+    width: 100%;
+    .rows{
+        height: px2rem(190px);
+        padding:0 px2rem(30px);
+        box-sizing: border-box;
+        background: #fff;
+        display: flex;
+        justify-content: space-around;
+        flex-flow: column;
+        .col{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .name{
+                font-size: px2rem(36px);
+                font-weight: bold;
+                color: #333;
+            }
+            .site_img{
+                width: px2rem(42px);
+                height: px2rem(55px);
+            }
+            .deta{
+                font-size: px2rem(24px);
+                opacity: 0.7;
+            }
+            .col_bt{
+                color: #333;
+                font-size: px2rem(24px);
+                display: flex;
+                align-items: center;
+                label{
+                    font-size: px2rem(36px);
+                    color: $FF9000;
+                    font-weight: bold;
+                    margin-left: px2rem(10px);
+                }
+            }
+        }
+    }
+    .list{
+        width: 100%;
+        background: #fff;
+        margin-top: px2rem(20px);
+        height: px2rem(130px);
+        padding:0 px2rem(30px);
+        box-sizing: border-box;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-around;
+        .item{
+            width: 100%;
+            display: flex;
+            span{
+                width: px2rem(180px);
+                display: flex;
+                font-size: px2rem(28px);
+                color: #BABABA;
+            }
+            label{
+                font-size: px2rem(26px);
+            }
+        }
+    }
+}

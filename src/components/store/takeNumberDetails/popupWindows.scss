@@ -1,0 +1,49 @@
+@import '../../../assets/scss/common';
+.popupWindows{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba($color: #000000, $alpha: 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .box{
+        width: px2rem(420px);
+        height: px2rem(200px);
+        background: #fff;
+        border-radius: px2rem(20px);
+        overflow: hidden;
+        .box_docs{
+            width: 100%;
+            height: px2rem(130px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding:0 px2rem(30px);
+            box-sizing: border-box;
+            font-size: px2rem(24px);
+            color: #1A1A1A;
+        }
+        .bt{
+            width: 100%;
+            border-top: solid #E7E6EC 1px;
+            height: px2rem(70px);
+            display: flex;
+            justify-content: space-between;
+            .bt_a{
+                width:50%;
+                border-right: solid 1px #E7E6EC;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: px2rem(28px);
+                color: #1A1A1A;
+            }
+            .bt_cr{
+                color: $FF9000;
+            }
+        }
+    }
+}   

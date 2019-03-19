@@ -1,0 +1,17 @@
+@import '../../../assets/scss/common';
+.list{
+    width:100%;
+    .storeList_item{
+        width:100%;
+        height: px2rem(175px);
+        background: #fff;
+        padding-left:px2rem(30px);
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        margin-bottom: px2rem(10px);
+        &:last-child{
+            margin-bottom: 0;
+        }
+    }
+}

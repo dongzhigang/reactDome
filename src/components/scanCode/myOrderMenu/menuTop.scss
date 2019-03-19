@@ -1,0 +1,74 @@
+@import '../../../assets/scss/common';
+
+.menuTop{
+    width: 100%;
+    padding:px2rem(30px) 0;
+    border-radius: px2rem(10px);
+    overflow: hidden;
+    box-sizing: border-box;
+    .top_col{
+        width: 100%;
+        height: px2rem(80px);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding:0 px2rem(20px);
+        box-sizing: border-box;
+        background: #fff;
+        border-bottom: solid 1px #E2E1E6;
+        &:last-child{
+            border-bottom: none;
+        }
+        .col_a{
+            display: flex;
+            align-items: center;
+            font-size: px2rem(26px);
+            color: #9A9A9A;
+            .tableNumber{
+                width: px2rem(60px);
+                height: px2rem(30px);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border:solid 1px #E2E1E6;
+                border-radius: px2rem(15px);
+                margin:0 px2rem(5px);
+                font-size: px2rem(26px);
+                color: #1A1A1A;
+                font-weight: bold;
+            }
+        }
+        .bt{
+            font-size: px2rem(26px);
+            color: #1A1A1A;
+            .quantity{
+                font-size: px2rem(30px);
+                color: $FF9000;
+                font-weight: bold;
+            }
+        }
+        .add{
+            width: px2rem(110px);
+            height: px2rem(56px);
+            border:solid 1px #E2E1E6;
+            border-radius: px2rem(16px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: px2rem(26px);
+            color: $FF9000;
+        }
+        .rigth{
+            font-size: px2rem(24px);
+            color: #1A1A1A;
+            .discounts{
+                color: $FF9000;
+                margin-right: px2rem(10px);
+            }
+            .price{
+                font-size: px2rem(30px);
+                color: $FF9000;
+            }
+        }
+    }
+}

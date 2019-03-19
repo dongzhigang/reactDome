@@ -1,0 +1,54 @@
+@import '../../../assets/scss/common';
+.storeLogo{
+    width: 100%;
+    height: px2rem(380px);
+    background: #E2E1E6;
+    .storeImg{
+        width: 100%;
+        height: px2rem(290px);
+        display: flex;
+        background: #CFCFCF;
+        justify-content: center;
+        border-bottom-right-radius: px2rem(400px) px2rem(50px);
+        border-bottom-left-radius: px2rem(400px) px2rem(50px);
+        box-sizing: border-box;
+        overflow: hidden;
+        .logo{
+            width: px2rem(550px);
+            margin-top:px2rem(90px);
+            position: relative;
+            .logoImg{            
+                width: px2rem(550px);
+                height: px2rem(250px);
+                border-radius:px2rem(20px);
+            }
+            .serialNumber{
+                position: absolute;
+                top: px2rem(10px);
+                right:  px2rem(20px);
+                font-size: px2rem(24px);
+                color: #fff;
+            }
+        }
+    }
+    .list{
+        width: 100%;
+        height: px2rem(86px);
+        background: #E2E1E6;
+        display: flex;
+        align-items: center;
+        .item{
+            width: 33.33%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: px2rem(24px);
+            color: #1A1A1A;
+            .item_icon{
+                width: px2rem(40px);
+                height: px2rem(40px);
+                margin-right: px2rem(20px);
+            }
+        }
+    }
+}

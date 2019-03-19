@@ -1,0 +1,8 @@
+// 设置html的fontSize大小
+@function px2rem($px){
+  $rem:100px;
+  @return ($px / $rem) + rem;
+}
+
+$F0EFF4:#F0EFF4;
+$FF9000:#FF9000;

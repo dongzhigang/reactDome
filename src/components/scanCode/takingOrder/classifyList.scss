@@ -1,0 +1,40 @@
+@import '../../../assets/scss/common';
+.classifyList{
+    width: px2rem(190px);
+    height: 100%;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #F1F0F5;
+    box-sizing: border-box;
+    .item{
+        width: 100%;
+        height: px2rem(80px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: px2rem(28px);
+        color: #8C8C8C;
+        border-bottom: solid 1px #E2E1E6;
+        position: relative;
+        &.active{
+            background: #fff;
+            color: $FF9000;
+        }
+        .gross_num{
+            width: px2rem(30px);
+            height: px2rem(30px);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #E71F19;
+            border-radius: 100%;
+            color: #fff;
+            font-size: px2rem(16px);
+            position: absolute;
+            right: px2rem(10px);
+            top: px2rem(10px);
+        }
+    }
+}
